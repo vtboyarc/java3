@@ -21,7 +21,7 @@ public class Main extends HttpServlet {
 
   private void showHome(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
-    resp.getWriter().print("Hello from Java! Yay, Java app deployed with Heroku. Cool, I guess...");
+    resp.getWriter().print("Yay, Java app deployed with Heroku. Cool, I guess...sorry, Ruby. Don't be mad!");
   }
 
   private void showDatabase(HttpServletRequest req, HttpServletResponse resp)
